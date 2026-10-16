@@ -1,0 +1,15 @@
+# Python'un ürettiği ara dosyalar
+__pycache__/
+*.pyc
+
+# Yerel yedekler (yedekle.py üretir)
+yedekler/
+
+# Dışarıdan aktarılan katalog dosyaları
+*.xlsx
+*.csv
+
+# SQLite geçici dosyaları
+*.db-journal
+*.db-wal
+*.db-shm
